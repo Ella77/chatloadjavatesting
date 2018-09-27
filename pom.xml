@@ -117,6 +117,7 @@
                     <version>${slf4j.version}</version>
                 </dependency>
             </dependencies>
+      
             <build>
                 <plugins>
                     <plugin>
@@ -210,6 +211,11 @@
         </repository>
     </distributionManagement>
     <dependencies>
+          <dependency>
+   <groupId>io.socket</groupId>
+   <artifactId>socket.io-client</artifactId>
+   <version>0.7.0</version>
+ </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
@@ -233,6 +239,11 @@
             <version>20180130</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+   <groupId>io.socket</groupId>
+   <artifactId>socket.io-client</artifactId>
+   <version>0.7.0</version>
+ </dependency>
     </dependencies>
     <developers>
         <developer>
@@ -246,6 +257,7 @@
             <email>admin@marci4.de</email>
         </developer>
     </developers>
+    
 </project>
 
 
